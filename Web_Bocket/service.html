@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+        .service {
+            background: rgba(255, 255, 255, 0.9);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            transition: transform 0.5s ease-in-out;
+            color: black;
+            perspective: 1000px;
+        }
+        .service:hover {
+            transform: scale(1.1) rotateY(10deg);
+        }
+        button {
+            background: #ff9800;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background: #e68900;
+            transform: scale(1.1);
+        }
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .service img:hover {
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/premium-vector/service-logo-template-design-vector_20029-567.jpg" alt="Services Logo" class="logo">
+        <h1>Our Services</h1>
+    </header>
+    <div class="container">
+        <div class="service" id="web">
+            <!-- <img src="https://www.webbocket.com/static/media/website_web_development.b4af782c7cd9351db27a57be2b173245.svg" alt="Web Development"> -->
+            <h2>Web Development</h2>
+            <p>We build responsive, modern websites using the latest technologies like HTML, CSS, JavaScript, and frameworks.</p>
+            <button onclick="showMessage('Web Development')">Learn More</button>
+        </div>
+        <div class="service" id="android">
+            <!-- <img src="https://www.webbocket.com/static/media/android_ios.4cc8723912a51eb0c5fc977b1fc9f101.svg" alt="Android & OS Development"> -->
+            <h2>Android & OS Development</h2>
+            <p>We develop custom Android applications and operating system solutions for various platforms.</p>
+            <button onclick="showMessage('Android & OS Development')">Learn More</button>
+        </div>
+        <div class="service" id="uiux">
+            <!-- <img src="https://www.webbocket.com/static/media/uiux-3d.5190e0b881f2ca5d4061.png" alt="UI/UX Design"> -->
+            <h2>UI/UX Design</h2>
+            <p>Our UI/UX experts create engaging and user-friendly designs to enhance user experience.</p>
+            <button onclick="showMessage('UI/UX Design')">Learn More</button>
+        </div>
+        <!-- <div class="service" id="backend">
+            <img src="https://files.oaiusercontent.com/file-W8dSDfjPFWWiJ18GkfLM1y?se=2025-03-21T06%3A09%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da784156e-8dda-4eac-97ce-5ea97df991b6.webp&sig=hPVkBHsc72bLEwuaxL2JdEaH3wbArHC/3Mzri1BhUIw%3D" alt="Backend Development">
+            <h2>Backend Development</h2>
+            <p>We specialize in backend solutions using Django, Node.js, and databases for secure and scalable applications.</p>
+            <button onclick="showMessage('Backend Development')">Learn More</button>
+        </div> -->
+    </div>
+    <script>
+        function showMessage(service) {
+            alert(service + " - More details coming soon!");
+        }
+    </script>
+</body>
+</html>
