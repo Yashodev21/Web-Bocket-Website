@@ -17,6 +17,3 @@ This site showcases the **courses, services, and offerings** of the company with
 - 🎯 **Courses & Services Section** – Highlights what the company offers  
 - 🧭 **Easy Navigation** – Simple and user-friendly interface  
 - 🎨 **Clean UI** – Professional and modern look  
-
----
-# Web-Bocket-Website
