@@ -1,4 +1,4 @@
-# 🌐 Web Bucket Company Website  
+# 🌐 Web Bocket Company Website  
 
 A simple and responsive website created for a **Web Bocket Company**.  
 This site showcases the **courses, services, and offerings** of the company with a clean and modern design.  
